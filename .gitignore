@@ -1,0 +1,21 @@
+# Archivos generados
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# Archivos de prueba
+*.encrypted
+*.encrypted.z
+test.txt
+secreto.txt
+archivo*.txt
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+~
+
+# Sistema
+.DS_Store

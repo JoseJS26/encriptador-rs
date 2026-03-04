@@ -1,0 +1,35 @@
+[package]
+name = "encriptador-rs"
+version = "1.0.0"
+edition = "2021"
+description = "Encriptador profesional para terminal"
+authors = ["Tu Nombre <tu@email.com>"]
+
+[[bin]]
+name = "encriptador"
+path = "src/main.rs"
+
+[dependencies]
+# CLI profesional
+clap = { version = "4.4", features = ["derive"] }
+clap_complete = "4.4"
+
+# Encriptación
+aes-gcm = "0.10"
+rand = "0.8"
+argon2 = "0.5"
+password-hash = "0.5"
+
+# Colores y UI
+colored = "2.0"
+indicatif = "0.17"
+rpassword = "7.3"
+
+# Archivos y compresión
+walkdir = "2"
+flate2 = "1.0"
+
+# Utilidades
+chrono = "0.4"
+anyhow = "1.0"
+rayon = "1.7"
