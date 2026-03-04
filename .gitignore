@@ -15,7 +15,15 @@ archivo*.txt
 .vscode/
 *.swp
 *.swo
+<<<<<<< HEAD
 ~
 
 # Sistema
 .DS_Store
+=======
+*~
+
+# Sistema
+.DS_Store
+EOF
+>>>>>>> f3a336735b196d4305ae9564505e1b8efb35117b
